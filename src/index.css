@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+header ul li{
+    @apply px-4;
+}
+
+.bg-primary{
+background-color: #5555de;
+}
+.bg-secondary{
+    background-color: #5490eb
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-blue-800 w-full h-1/4
+}
+
+.mobile-nav  li{
+    @apply w-full text-center border-2 h-full;
+}
+
+.project-desc{
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-[#5555de] opacity-0 duration-500 hover:opacity-100;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    @apply  bg-[#2c6ac6] px-5 py-2 font-bold hover:border-2 border-white
+}
+
+.box{
+    @apply  border-1 shadow-2xl rounded-3xl w-[120px] h-[120px] 
+}
+.boxes{
+    @apply  border-1 shadow-2xl rounded-3xl w-[800px] h-[120px]  mb-4 mx-50
+}
