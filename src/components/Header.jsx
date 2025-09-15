@@ -29,15 +29,21 @@ export default function Header() {
             <a href="#contact">Contact</a>
           </li>
           <li>
-              <FaLinkedin />
-            </li>
-            <li>
-              <FaGithub />
-          </li>
-          <BiLogoGmail/>
-          <li>
+  <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin />
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ishvareya-3008" target="_blank" rel="noopener noreferrer">
+    <FaGithub />
+  </a>
+</li>
+<li>
+  <a href="mailto:ishvareyaishu@gmail.com">
+    <BiLogoGmail />
+  </a>
+</li>
 
-          </li>
         </ul>
       </nav>
       {toggle && (
