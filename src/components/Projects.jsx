@@ -2,6 +2,8 @@
 import React from "react";
 import pro1 from "../assets/pro1.png";
 import pro2 from "../assets/pro2.png";
+import pro3 from "../assets/pro3.png";
+
 
 
 export default function Projects() {
@@ -15,18 +17,18 @@ export default function Projects() {
       },
       {
         ima: pro2,
-        description: "A responsive weather application built with ReactJS and TailwindCSS that fetches real-time weather data using a public weather API. Users can search for any city worldwide and instantly view current weather conditions, including temperature, humidity, wind speed, and a dynamic weather icon. The project demonstrates API integration, state management in React, and modern responsive UI design with TailwindCSS.",
-        link: "https://project-weatherapi.vercel.app/"
+        description: "A responsive weather app built with ReactJS and TailwindCSS that uses a public API to fetch real-time data. Users can search any city to view temperature, conditions, humidity, and wind speed in a clean, modern UI.",
+        link:"https://project-weatherapi.vercel.app/"
+      },
+      {
+        ima: pro3,
+        description: "A full-featured e-commerce web app built with ReactJS,  product listings, detailed product pages, and an add-to-cart system. Users can browse products, manage their cart. The app provides a smooth, responsive UI for a seamless shopping experience.",
+        link:"https://ecommerce-git-main-ishvareya-3008s-projects.vercel.app/"
       },
       {
         ima: pro1,
         description: "A Portfolio website built with HTML, CSS, JS",
-        link: ""
-      },
-      {
-        ima: pro1,
-        description: "A Portfolio website built with HTML, CSS, JS",
-        link: ""
+        link:""
       }
     ]
   };
@@ -68,7 +70,7 @@ export default function Projects() {
                 <p className="mb-4">{projects.description}</p>
 
                
-               {projects.link && (
+               {projects.link ? (
   <a
     className="bg-[#5555de] text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition"
     target="_blank"
@@ -77,7 +79,16 @@ export default function Projects() {
   >
     View Project
   </a>
+) : (
+  <button
+    className="bg-gray-500 text-white px-6 py-2 rounded-md cursor-not-allowed opacity-70"
+    disabled
+  >
+    View Project
+  </button>
 )}
+
+
 
               </div>
             </div>
