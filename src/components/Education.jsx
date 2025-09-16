@@ -26,7 +26,7 @@ export default function Education() {
   ];
 
   return (
-    <section className='flex flex-col bg-primary px-5 py-20 md:py-32 text-white' id="education">
+    <section className='flex flex-col bg-secondary px-5 py-20 md:py-32 text-white' id="education">
       <div className='flex flex-col justify-center max-w-5xl mx-auto w-full'>
         <h1 className='text-3xl sm:text-4xl font-bold border-b-4 border-[#5490eb] mb-6 w-max'>
           Education

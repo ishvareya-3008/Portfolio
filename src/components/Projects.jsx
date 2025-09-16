@@ -3,6 +3,8 @@ import React from "react";
 import pro1 from "../assets/pro1.png";
 import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
+import pro4 from "../assets/pro4.png";
+
 
 
 
@@ -26,9 +28,9 @@ export default function Projects() {
         link:"https://ecommerce-git-main-ishvareya-3008s-projects.vercel.app/"
       },
       {
-        ima: pro1,
-        description: "A Portfolio website built with HTML, CSS, JS",
-        link:""
+        ima: pro4,
+        description: "E-Commerce Web Application – Built a fully functional Shop platform using HTML, CSS, JavaScript, PHP, and MySQL. Implemented CRUD operations for product management (add, edit, delete, view) and integrated a secure user authentication system. Designed responsive UI for seamless user experience and optimized database queries for efficient product and order handling.",
+        link:"."
       }
     ]
   };

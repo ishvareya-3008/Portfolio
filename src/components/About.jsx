@@ -12,7 +12,9 @@ export default function About() {
 
 
   return (
-    <section className="flex flex-col md:flex-row bg-primary px-5 py-10 md:py-20" id="about">
+    <section 
+  className="flex flex-col md:flex-row bg-secondary px-5 py-10 md:py-20" id="about">
+
       <div className="py-5 md:w-1/2 flex justify-center md:justify-end">
         <img 
           src={ female }

@@ -8,8 +8,10 @@ header ul li{
 background-color: #5555de;
 }
 .bg-secondary{
-    background-color: #5490eb
+
+    @apply bg-gradient-to-br from-purple-500 to-blue-500
 }
+
 .mobile-nav{
     @apply fixed top-10 left-0 bg-blue-800 w-full h-1/4
 }

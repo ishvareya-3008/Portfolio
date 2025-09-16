@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className='flex flex-col bg-primary px-5 py-32 text-white' id="contact">
+    <section className='flex flex-col bg-secondary px-5 py-32 text-white' id="contact">
       <div className='flex flex-col items-center max-w-md mx-auto text-center'>
         <h1 className='text-4xl font-bold border-b-4 border-[#5490eb] mb-5 w-[200px]'>
           Contact Us
