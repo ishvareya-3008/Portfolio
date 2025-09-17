@@ -9,7 +9,7 @@ background-color: #6262a5;
 }
 .bg-secondary{
 
-    @apply bg-gradient-to-br from-purple-500 to-blue-400
+    @apply bg-gradient-to-br from-purple-400 to-blue-400
 }
 
 .mobile-nav{
