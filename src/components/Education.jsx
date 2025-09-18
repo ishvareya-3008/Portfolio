@@ -7,7 +7,7 @@ export default function Education() {
       institution: "The Madura College",
       location: "Madurai, India",
       duration: "Jun 2020 — Dec 2023",
-      gpa: "N/A"
+      gpa : "7.29/10"
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
