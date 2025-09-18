@@ -11,9 +11,7 @@ export default function Body() {
   return (
     <section
       className="flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-20 bg-secondary gap-12"
-      id="body"
-    >
-      
+      id="body">
       <div className="md:w-1/2 flex flex-col justify-center space-y-8 text-center md:text-left">
         <div>
           <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight">
@@ -23,7 +21,6 @@ export default function Body() {
           <p className="text-2xl mt-4 text-gray-200">{intro.subtitle}</p>
         </div>
 
-        
         <div className="flex gap-4 px-4 py-4 border-b border-white w-fit mx-auto md:mx-0 items-center">
           <b className="text-2xl text-white">Resume</b>
 
@@ -45,13 +42,10 @@ export default function Body() {
         </div>
       </div>
 
-      
       <div className="md:w-1/2 flex justify-center">
         <div className="relative group">
-          
           <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition duration-500"></div>
 
-          
           <img
             className="relative w-72 h-72 md:w-[350px] md:h-[450px] object-cover rounded-2xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
             src={person}
