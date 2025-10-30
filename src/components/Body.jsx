@@ -25,7 +25,7 @@ export default function Body() {
           <b className="text-2xl text-white">Resume</b>
 
           {/* View Resume */}
-          <a href="/Ishvareya_resume.pdf" target="_blank">
+          <a href="/resume.pdf" target="_blank">
             <IoIosEye
               size={32}
               className="cursor-pointer transition-transform duration-200 hover:text-pink-400 hover:scale-110"
