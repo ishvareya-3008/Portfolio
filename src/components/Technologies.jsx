@@ -7,6 +7,7 @@ import img5 from "../assets/php.png";
 import img6 from "../assets/react.png";
 import img7 from "../assets/tailwind.png";
 import img8 from "../assets/bootstrap.png";
+import img9 from "../assets/node.png"
 
 const technologies = [
   { src: img1 },
@@ -17,6 +18,8 @@ const technologies = [
   { src: img6 },
   { src: img7 },
   { src: img8 },
+  { src: img9 },
+  
 ];
 
 export default function Technologies() {
